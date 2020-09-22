@@ -1,15 +1,15 @@
 # PEDtracker
 PEDtracker (post-embryonal development (PED) tracker) is a tool for tracking and analyzing the post-embryonal development of insects and relatives.
 
-First component of the software is an ImageJ script ( NAME)
+First component of the software is an ImageJ script (PEDtrack.ijm)
 
 (1) Select ROIs (regions of interests) in your arena/image and save them as RoiSet.zip in the parent folder
 (2) Adjust parameters according to your research question
-(3) Running (NAME) the user has to select the folder containing the images
+(3) Running PEDtrack.ijm the user has to select the folder containing the images
 
---> By using (NAME) images are processed in batches and videos of ROIs are generated (batch = time; ROI = space). Then objects are extracted and results are saved as .csv-files. Transition areas between larval stages are analyzed by settings of two larval stages. 
+--> By using PEDtrack.ijm images are processed in batches and videos of ROIs are generated (batch = time; ROI = space). Then objects are extracted and results are saved as .csv-files. Transition areas between larval stages are analyzed by settings of two larval stages. 
 
-Second component of the software is a R package (PEDtrack)
+Second component of the software is a R package (PEDtrack.R)
 
 (1) Adjust parameters according to your research question
 (2) Run PEDtrack 
