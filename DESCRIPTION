@@ -1,4 +1,4 @@
-Package: PEDTrackerTest
+Package: PEDtracker
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -13,8 +13,7 @@ Authors@R:
            email = "tilman.triphan@uni-leipzig.de",
            comment = c(ORCID = "0000-0002-5752-7589"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: use_gpl3_license()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
