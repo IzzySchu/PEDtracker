@@ -9,10 +9,10 @@ First component of the software is an ImageJ script (PEDtrack.ijm)
 
 --> By using PEDtrack.ijm images are processed in batches and videos of ROIs are generated (batch = time; ROI = space). Then objects are extracted and results are saved as .csv-files. Transition areas between larval stages are analyzed by settings of two larval stages. 
 
-Second component of the software is a R package (PEDtrack.R)
+Second component of the software is a R package (PEDtracker.R)
 
 (1) Adjust parameters according to your research question
-(2) Run PEDtrack 
+(2) Run PEDtracker 
     (2.1) .csv-files are loaded and processed by number of ROIs and batches (one .csv-file = one batch); each ROI is then processed individually 
     (2.2) .csv-files of an individual ROI are sorted by number of batches; better fitting files of the transition area can be selected by specific parameters (in our case   
     Solidity) 
