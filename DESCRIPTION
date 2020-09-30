@@ -2,11 +2,11 @@ Package: PEDtracker
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Isabell",
+           family = "Schumann",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "isabell.schumann@uni-leipzig.de",
+           comment = c(ORCID = "0000-0001-8354-2523"))
     person(given = "Tilman",
            family = "Triphan",
            role = c("aut", "cre"),
